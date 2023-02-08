@@ -1,0 +1,4 @@
+#Crie um algoritimo que leia um numero e mostre o seu dobro, triplo e raiz quadrada.
+from math import isqrt
+numero = int(input('Insira um número: '))
+print(f'-->Dobro: {numero * 2}\n-->Triplo: {numero * 3}\n-->Raiz: {isqrt(numero)}')
